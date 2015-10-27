@@ -2,17 +2,6 @@
 
 float accFactor = 0.0f;
 
-
-float calculateFactor(int rangeMin, int rangeMax) {
-
-	if (rangeMin==1024 || rangeMax==0)
-		return 0;
-
-	return (255/ (rangeMax - rangeMin));
-}
-
-
-
 int main(int argc, char **argv)
 {
 
